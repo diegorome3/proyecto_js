@@ -1,3 +1,5 @@
+var resultadoParaImprimir = document.getElementById("resultado")
+
 class Clientes {
     constructor(nombre, mail) {
         this.nombre = nombre
@@ -99,9 +101,9 @@ function agregarAlCarrito(id) {
     console.log(carrito[0].id.nombre);
     console.log(id);
 
-    console.log("Se agrego el juego correctamente con el id" + id.id + "y nombre" + id.nombre);
-    //return "Se agrego el juego correctamente con el id " + id;
-    carrito.forEach(carri => console.log("Se agrego el juego correctamente con el id" + carri.id.id + " y nombre " + carri.id.nombre ))
+    //console.log("Se agrego el juego correctamente con el id" + id.id + "y nombre" + id.nombre);
+    resultadoParaImprimir.innerText = "Se agrego el juego correctamente con el id " + id.id + " y nombre " + id.nombre
+    resultadoParaImprimir.style.color = "white"
 }
 
 let arcatgames = document.createElement ("p");
