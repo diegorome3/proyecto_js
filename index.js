@@ -104,6 +104,31 @@ function agregarAlCarrito(id) {
     carrito.forEach(carri => console.log("Se agrego el juego correctamente con el id" + carri.id.id + " y nombre " + carri.id.nombre ))
 }
 
+let arcatgames = document.createElement ("p");
+arcatgames.innerHTML = "<h3>@arcatstore</h3>";
+arcatgames.style.color = "white"
+arcatgames.style.fontFamily = "Kdam Thmor Pro"
+arcatgames.style.textAlign = "auto"
+arcatgames.style.marginTop = "6rem"
+document.body.append(arcatgames);
+
+let info = document.getElementById("info")
+console.log(info.innerText)
+
+info.innerText = "En Arcat Games vas a encontrar las ultimas novedades del mundo de los videojuegos!"
+info.style.color = "white"
+info.style.fontFamily = "Kdam Thmor Pro"
+console.log(info.innerText)
+
+const child = document.getElementsByClassName('card')
+
+console.log(child);
+
+for (el of child) {
+    console.log(el.innerText);
+}
+
+
 console.log(resultado);
 function getLastID() {
     return juegos.length;
