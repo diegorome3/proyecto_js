@@ -130,6 +130,33 @@ for (el of child) {
     console.log(el.innerText);
 }
 
+let boton1 = document.getElementById("botoninf")
+boton1.addEventListener("click",respuestaClick)
+
+function respuestaClick(){
+    window.location.href="https://www.youtube.com/watch?v=u6Qypoo0a8w&t=16s";
+}
+
+let boton2 = document.getElementById("botoninf2")
+boton2.addEventListener("click",respuestaClick2)
+
+function respuestaClick2(){
+    window.location.href="https://www.youtube.com/watch?v=o3V-GvvzjE4&t=6s";
+}
+
+let boton3 = document.getElementById("botoninf3")
+boton3.addEventListener("click",respuestaClick3)
+
+function respuestaClick3(){
+    window.location.href="https://www.youtube.com/watch?v=2TMs2E6cms4";
+}
+
+let boton4 = document.getElementById("botoninf4")
+boton4.addEventListener("click",respuestaClick)
+
+function respuestaClick(){
+    window.location.href="https://www.youtube.com/watch?v=Jv4BjWoB-NA&t=2s";
+}
 
 console.log(resultado);
 function getLastID() {
