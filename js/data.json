@@ -1,0 +1,64 @@
+[{
+    "id": "H001",
+    "name": "Dead Island 2",
+    "price": 16500,
+    "desc": "Dead Island 2 es un juego de rol y acción en primera persona, vibrante y con mucho estilo, inundado de contaminación zombi, un sinfín de enemigos.",
+    "img": "images/img-1.jpg"
+},
+{
+    "id": "H002",
+    "name": "Fifa 23",
+    "price": 14000,
+    "desc": "La tecnología HyperMotion2 ofrece jugabilidad ultrarrealista en la nueva generación.El juego de todos. FIFA 23 Ultimate Edition.",
+    "img": "images/img-2.jpg"
+},
+{
+    "id": "H003",
+    "name": "Demons Souls",
+    "price": 13000,
+    "desc": "Demon's Souls es un videojuego de rol de acción en tercera persona desarrollado por la compañía de videojuegos japonesa FromSoftware.",
+    "img": "images/img-3.jpg"
+},
+{
+    "id": "H004",
+    "name": "Returnal",
+    "price": 17500,
+    "desc": "Returnal es una aventura de acción y disparos con una ambientación de ciencia ficción a cargo de Housemarque y Sony Interactive Entertainment.",
+    "img": "images/img-4.jpg"
+},
+{
+    "id": "H005",
+    "name": "God of War Ragnarok",
+    "price": 18000,
+    "desc": "Kratos deberá enfrentarse a diversos enemigos de inspiración nórdica. Explorando los mitos del Ragnarok.",
+    "img": "images/img-5.jpg"
+},
+{
+    "id": "H006",
+    "name": "Gotham Knights",
+    "price": 16000,
+    "desc": "Gotham Knights es un juego de rol de acción y mundo abierto que se desarrolla en la versión más dinámica e interactiva de Gotham City.",
+    "img": "images/img-6.jpg"
+},
+{
+    "id": "H007",
+    "name": "Ratchet and Clank",
+    "price": 17000,
+    "desc": "Explora a toda velocidad una variedad de mundos llenos de acción, gráficos alucinantes y un arsenal demencial.",
+    "img": "images/img-7.jpg"
+},
+{
+    "id": "H008",
+    "name": "Spider-Man Miles Morales",
+    "price": 13000,
+    "desc": "Marvel's Spider-Man: Miles Morales es un videojuego de acción y aventuras desarrollado por Insomniac.",
+    "img": "images/img-8.jpg"
+},
+{
+    "id": "H009",
+    "name": "Gran Turismo 7",
+    "price": 18000,
+    "desc": "Gran Turismo 7 recrea la apariencia y el manejo de vehículos clásicos.",
+    "img": "images/img-9.jpg"
+}
+]
